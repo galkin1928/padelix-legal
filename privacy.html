@@ -123,150 +123,62 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: January 11, 2026</p>
+        <p class="last-updated">Last Updated: October 18, 2026</p>
 
         <h2>Introduction</h2>
         <p>Padelix ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
             explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
         </p>
-        <p>By using the App, you agree to the collection and use of information in accordance with this policy.</p>
 
         <h2>1. Information We Collect</h2>
 
         <h3>1.1 Information You Provide</h3>
         <ul>
-            <li><strong>Team Names and Match Settings:</strong> Stored locally on your device, not transmitted to our
-                servers</li>
-            <li><strong>User Preferences:</strong> App settings, language preferences, subscription status</li>
+            <li><strong>Team Names and Match Settings:</strong> Stored on your device. Team names are not sent to Firebase Analytics or our servers.</li>
+            <li><strong>User Preferences:</strong> App settings are stored on your device.</li>
         </ul>
 
-        <h3>1.2 Automatically Collected Information</h3>
-        <ul>
-            <li><strong>Device Information:</strong> Device type, OS version, unique identifiers, app version</li>
-            <li><strong>Usage Data:</strong> Features used, match statistics, app performance, crash reports</li>
-            <li><strong>Analytics Data:</strong> Anonymous usage statistics via Firebase Analytics</li>
-        </ul>
+        <h3>1.2 Usage Analytics</h3>
+        <p>Firebase Analytics collects usage events while you use the App, including match actions and voice detection outcomes, as well as device and app information collected by the SDK. Analytics is enabled whenever the App starts, including after updating from a version in which you turned it off; there is no in-app analytics switch. Events use team labels (team 1, team 2, or none) and a voice-detected flag, not your team names or recognized speech text. Firebase may process identifiers and technical information under its own privacy policy; we do not describe this data as anonymous.</p>
 
         <div class="highlight-box">
-            <h3>1.3 Voice Data - Important Information</h3>
-            <p><strong>Your voice data is processed entirely on your device.</strong></p>
-            <ul>
-                <li>✅ Voice recognition uses Apple's on-device Speech Recognition framework</li>
-                <li>✅ We do NOT record, store, or transmit your voice data to our servers</li>
-                <li>✅ Voice commands are processed locally for score tracking only</li>
-                <li>⚠️ Apple may process voice data according to their privacy policy</li>
-            </ul>
+            <h3>1.3 Voice Data</h3>
+            <p>Voice scoring uses Apple's Speech recognition and requires microphone and speech recognition permissions. Speech recognition may use Apple's servers or a network connection, depending on Apple's processing and your device. We do not send audio recordings or recognized speech text to Firebase Analytics or our own servers. See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for how Apple handles speech data.</p>
         </div>
 
         <h3>1.4 Subscription and Payment Information</h3>
         <ul>
-            <li>Processed by Apple through the App Store</li>
-            <li>We use Apphud SDK to manage subscription status</li>
-            <li>We do NOT collect or store your payment card information</li>
+            <li>Apple processes App Store purchases and payments; we do not receive your payment card details.</li>
+            <li>Apphud handles subscription purchase and entitlement information so we can determine Pro access and restore purchases.</li>
         </ul>
 
         <h2>2. How We Use Your Information</h2>
-        <p>We use collected information to:</p>
-        <ul>
-            <li>Provide and maintain the App's core functionality</li>
-            <li>Manage your subscription status</li>
-            <li>Analyze usage patterns to improve user experience</li>
-            <li>Identify and fix bugs and technical issues</li>
-            <li>Develop new features based on user behavior</li>
-            <li>Send important updates and respond to support requests</li>
-        </ul>
+        <p>We use local match settings for score tracking, purchase information for Pro access, and Firebase usage data to understand how the App is used and improve it. If you contact us, we use your message to respond to your request.</p>
 
         <h2>3. Third-Party Services</h2>
-        <p>We use the following third-party services:</p>
-
-        <h3>Firebase Analytics (Google)</h3>
         <ul>
-            <li>Collects anonymous usage statistics</li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+            <li><strong>Firebase Analytics (Google):</strong> Processes usage and technical data when you use the App. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
+            <li><strong>Apphud:</strong> Handles subscription purchases and entitlement status. <a href="https://apphud.com/privacy" target="_blank">Apphud Privacy Policy</a></li>
+            <li><strong>Apple App Store and Speech:</strong> Processes payments and may process speech recognition data over a network. <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a></li>
         </ul>
 
-        <h3>Apphud</h3>
-        <ul>
-            <li>Manages subscription status and in-app purchases</li>
-            <li><a href="https://apphud.com/privacy" target="_blank">Privacy Policy</a></li>
-        </ul>
-
-        <h3>Apple App Store and Speech Recognition</h3>
-        <ul>
-            <li>Processes payments and subscriptions</li>
-            <li>May process voice data for speech recognition</li>
-            <li><a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a></li>
-        </ul>
-
-        <h2>4. Data Storage and Security</h2>
-
-        <h3>Local Storage</h3>
-        <ul>
-            <li>Match data, team names, and preferences are stored locally on your device</li>
-            <li>This data is NOT synchronized to cloud servers</li>
-            <li>You can delete this data by uninstalling the App</li>
-        </ul>
-
-        <h3>Security Measures</h3>
-        <ul>
-            <li>Encryption of data in transit</li>
-            <li>Secure storage practices</li>
-            <li>Regular security assessments</li>
-            <li>Limited access to personal information</li>
-        </ul>
+        <h2>4. Storage and Security</h2>
+        <p>Match settings and team names stay on your device and are not synchronized to our servers. You can remove local app data by deleting the App. Apple, Apphud, and Firebase handle their respective data under their own policies. No transmission or storage method is completely secure.</p>
 
         <h2>5. Data Sharing</h2>
-        <p><strong>We do NOT sell your data.</strong></p>
-        <p>We may share information only with:</p>
-        <ul>
-            <li>Service providers (Firebase, Apphud) who assist in operating the App</li>
-            <li>Legal authorities when required by law</li>
-            <li>Business partners in case of merger or acquisition (with notice)</li>
-        </ul>
+        <p>We do not sell your data. Subscription information is handled by Apple and Apphud; analytics data is processed by Firebase; speech data may be processed by Apple. We may disclose information when legally required.</p>
 
-        <h2>6. Your Privacy Rights</h2>
-        <p>You have the right to:</p>
-        <ul>
-            <li>Access your personal information</li>
-            <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Opt-out of analytics tracking</li>
-            <li>Withdraw consent for data processing</li>
-        </ul>
-
-        <h3>GDPR Rights (European Users)</h3>
-        <ul>
-            <li>Right to data portability</li>
-            <li>Right to restrict processing</li>
-            <li>Right to object to processing</li>
-            <li>Right to lodge a complaint with supervisory authority</li>
-        </ul>
-
-        <h3>CCPA Rights (California Users)</h3>
-        <ul>
-            <li>Right to know what information is collected</li>
-            <li>Right to opt-out of sale (we don't sell your data)</li>
-            <li>Right to non-discrimination</li>
-        </ul>
+        <h2>6. Your Choices and Requests</h2>
+        <p>The App does not provide an analytics switch. To stop future collection, you can stop using or delete the App; deleting it also removes locally stored match settings and team names. For questions or requests about data we control, including access or deletion, email us at <a href="mailto:galkin1928@gmail.com">galkin1928@gmail.com</a>. You may also need to contact Apple, Apphud, or Google about data they process under their own policies.</p>
 
         <h2>7. Children's Privacy</h2>
-        <p>The App is not intended for children under 13. We do not knowingly collect personal information from
-            children. If you believe your child has provided us with information, please contact us immediately.</p>
+        <p>The App is not intended for children under 13. If you believe a child has provided us with personal information, contact us at the address below.</p>
 
         <h2>8. Data Retention</h2>
-        <ul>
-            <li><strong>Local Data:</strong> Stored on your device until you delete the App</li>
-            <li><strong>Analytics Data:</strong> Retained for 14-26 months (Firebase policy)</li>
-            <li><strong>Subscription Data:</strong> Retained as required for billing and legal compliance</li>
-        </ul>
+        <p>Local match settings remain on your device until you delete the App. Apple and Apphud retain purchase information according to their policies and legal obligations. Firebase retains collected data according to its settings and policy. Contact us about deletion of information we control; deleting the App does not remove previously collected data from third-party services.</p>
 
         <h2>9. Changes to This Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you by:</p>
-        <ul>
-            <li>Posting the new policy in the App</li>
-            <li>Updating the "Last Updated" date</li>
-            <li>Sending a notification for material changes</li>
-        </ul>
+        <p>We may update this policy by publishing a new version here and changing the "Last Updated" date above.</p>
 
         <div class="contact-info">
             <h2>10. Contact Us</h2>
