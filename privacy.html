@@ -123,7 +123,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: October 18, 2026</p>
+        <p class="last-updated">Last Updated: October 20, 2026</p>
 
         <h2>Introduction</h2>
         <p>Padelix ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy
@@ -134,16 +134,16 @@
 
         <h3>1.1 Information You Provide</h3>
         <ul>
-            <li><strong>Team Names and Match Settings:</strong> Stored on your device. Team names are not sent to Firebase Analytics or our servers.</li>
+            <li><strong>Team Names and Match Settings:</strong> Stored on your device. Version 1.2 can also send entered team names to Firebase Analytics when you score points or set up serve rotation. Version 1.3 and later send team labels instead.</li>
             <li><strong>User Preferences:</strong> App settings are stored on your device.</li>
         </ul>
 
         <h3>1.2 Usage Analytics</h3>
-        <p>Firebase Analytics collects usage events while you use the App, including match actions and voice detection outcomes, as well as device and app information collected by the SDK. Analytics is enabled whenever the App starts, including after updating from a version in which you turned it off; there is no in-app analytics switch. Events use team labels (team 1, team 2, or none) and a voice-detected flag, not your team names or recognized speech text. Firebase may process identifiers and technical information under its own privacy policy; we do not describe this data as anonymous.</p>
+        <p>Firebase Analytics collects usage events while you use the App, including match actions and voice detection outcomes, as well as device and app information collected by the SDK. Analytics is enabled whenever the App starts, including after updating from a version in which you turned it off; there is no in-app analytics switch. Version 1.2 can send entered team names and recognized speech text as event parameters. Version 1.3 and later use team labels (team 1, team 2, or none) and a voice-detected flag instead. Firebase may process identifiers and technical information under its own privacy policy; we do not describe this data as anonymous.</p>
 
         <div class="highlight-box">
             <h3>1.3 Voice Data</h3>
-            <p>Voice scoring uses Apple's Speech recognition and requires microphone and speech recognition permissions. Speech recognition may use Apple's servers or a network connection, depending on Apple's processing and your device. We do not send audio recordings or recognized speech text to Firebase Analytics or our own servers. See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for how Apple handles speech data.</p>
+            <p>Voice scoring uses Apple's Speech recognition and requires microphone and speech recognition permissions. Speech recognition may use Apple's servers or a network connection, depending on Apple's processing and your device. We do not send audio recordings to Firebase Analytics or our own servers. Version 1.2 can send recognized speech text to Firebase Analytics; version 1.3 and later do not. See <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a> for how Apple handles speech data.</p>
         </div>
 
         <h3>1.4 Subscription and Payment Information</h3>
@@ -163,7 +163,7 @@
         </ul>
 
         <h2>4. Storage and Security</h2>
-        <p>Match settings and team names stay on your device and are not synchronized to our servers. You can remove local app data by deleting the App. Apple, Apphud, and Firebase handle their respective data under their own policies. No transmission or storage method is completely secure.</p>
+        <p>Match settings and team names are stored on your device and are not synchronized to our servers. Version 1.2 can also send team names to Firebase Analytics as described above. You can remove local app data by deleting the App. Apple, Apphud, and Firebase handle their respective data under their own policies. No transmission or storage method is completely secure.</p>
 
         <h2>5. Data Sharing</h2>
         <p>We do not sell your data. Subscription information is handled by Apple and Apphud; analytics data is processed by Firebase; speech data may be processed by Apple. We may disclose information when legally required.</p>
